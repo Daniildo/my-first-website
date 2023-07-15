@@ -1,0 +1,20 @@
+{
+  "recommendMenu" : [
+    {
+      "title" : "About",
+      "link" : "#about-block"
+    },
+    {
+      "title" : "Portfolio",
+      "link" : "#portfolio-block"
+    },
+    {
+      "title" : "Skills",
+      "link" : "#skills-block"
+    },
+    {
+      "title" : "Contacts",
+      "link" : "#contact-block"
+    }
+  ]
+}

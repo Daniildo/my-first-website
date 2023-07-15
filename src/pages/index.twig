@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>big dick club</title>
+  <meta name="description" content="A light foundation for your next frontend project based on webpack.">
+    <link type="Image/x-icon" href="../images/favicon.png" rel="icon">
+</head>
+<body>
+
+<!-- .sections-top -->
+<div class="section-top">
+      <div class="container section-top__container">
+          <header class="header-top">
+              <a href="/"><img src="../images/Title.png" alt="title logo" class="header-top__logo"></a>
+              <div class="header-top__main-menu">
+                  {% for listingsItem in config.recommendMenu %}
+                      <div class="header-top__block-links">
+                         <a href="{{ listingsItem.link }}" class="header-top__links">{{ listingsItem.title }}</a>
+                      </div>
+                  {% endfor %}
+              </div>
+          </header>
+      </div>
+  </div>
+<!-- ./sections-top -->
+<!-- .section-top-content -->
+  <div class="section-top-content">
+    <div class="container">
+      <div class="section-top-content__block">
+          <div class="section-top-content__blockNiga">
+              <img src="../images/niga.jpg" alt="title logo" class="section-top-content-niga">
+          </div>
+      <div class="section-top-content-right">
+        <h1 class="section-top-content-header wow bounceInDown">Wellcome in <br>personal website</h1>
+         <p class="section-top-content-appeal">I hope you’s find all what you want to find.<br>Have a good day!</p>
+          <a href="#email-form" class="section-top-content-link anchor">Send me E-mail <span>➞</span > </a>
+      </div>
+     </div>
+    </div>
+  </div>
+<!-- ./section-top-content -->
+<!-- .sections-about -->
+<!-- TODO: Переверстать нормально на флексы  -->
+<div class="section-about" id="about-block">
+    <div class="container section-about__container">
+        <div class="section-about__block">
+            <div class="section-about-txt-block">
+                <h2 class="section-about-title">About me</h2>
+                <p class="section-about-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consequat commodo libero, a vulputate metus rhoncus sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc eleifend enim dictum libero elementum, nongravida arcu viverra.</p>
+            </div>
+
+            <div class="section-about__wrapperPC">
+                <img src="../images/PC.png" alt="" class="section-about-PC">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ./sections-about -->
+<!-- .sections-portfolio -->
+<div class="sections-portfolio" id="portfolio-block">
+    <div class="container">
+        <h2 class="sections-portfolio-title">Portfolio</h2>
+        <p class="sections-portfolio-subtitle">Collected only my favorite works</p>
+        <div class="sections-portfolio-block-img">
+            <div class="sections-portfolio-img">
+                <img src="../images/Portfolio-img/1.png" alt="Какая-то картинка"/>
+                <div class="sections-portfolio-img_description">
+                    <h3 class="sections-portfolio-img__title">What i do?</h3>
+                       <ul class=sections-portfolio-img__benefits-list">
+                           <li class="sections-portfolio-img__benefits-item">design</li>
+                           <li class="sections-portfolio-img__benefits-item">FrontEnd</li>
+                           <li class="sections-portfolio-img__benefits-item">backEnd</li>
+                           <li class="sections-portfolio-img__benefits-item">Server management</li>
+                       </ul>
+                    <button class="sections-portfolio-img__top-button">more info</button>
+                    <button class="sections-portfolio-img__bottom-button">more info</button>
+                </div>
+            </div>
+            <div class="sections-portfolio-img">
+                <img src="../images/Portfolio-img/2.png" alt="">
+                <div class="sections-portfolio-img_description">
+                    <h3 class="sections-portfolio-img__title">What i do?</h3>
+                    <ul class=sections-portfolio-img__benefits-list">
+                        <li class="sections-portfolio-img__benefits-item">design</li>
+                        <li class="sections-portfolio-img__benefits-item">FrontEnd</li>
+                        <li class="sections-portfolio-img__benefits-item">backEnd</li>
+                        <li class="sections-portfolio-img__benefits-item">Server management</li>
+                    </ul>
+                    <button class="sections-portfolio-img__top-button">more info</button>
+                    <button class="sections-portfolio-img__bottom-button">more info</button>
+                </div>
+            </div>
+            <div class="sections-portfolio-img">
+                <img src="../images/Portfolio-img/3.png" alt="">
+                <div class="sections-portfolio-img_description">
+                    <h3 class="sections-portfolio-img__title">What i do?</h3>
+                    <ul class=sections-portfolio-img__benefits-list">
+                        <li class="sections-portfolio-img__benefits-item">design</li>
+                        <li class="sections-portfolio-img__benefits-item">FrontEnd</li>
+                        <li class="sections-portfolio-img__benefits-item">backEnd</li>
+                        <li class="sections-portfolio-img__benefits-item">Server management</li>
+                    </ul>
+                    <button class="sections-portfolio-img__top-button">more info</button>
+                    <button class="sections-portfolio-img__bottom-button">more info</button>
+                </div>
+            </div>
+            <div class="sections-portfolio-img">
+                <img src="../images/Portfolio-img/5.png" alt="">
+                <div class="sections-portfolio-img_description">
+                    <h3 class="sections-portfolio-img__title">What i do?</h3>
+                    <ul class=sections-portfolio-img__benefits-list">
+                        <li class="sections-portfolio-img__benefits-item">design</li>
+                        <li class="sections-portfolio-img__benefits-item">FrontEnd</li>
+                        <li class="sections-portfolio-img__benefits-item">backEnd</li>
+                        <li class="sections-portfolio-img__benefits-item">Server management</li>
+                    </ul>
+                    <button class="sections-portfolio-img__top-button">more info</button>
+                    <button class="sections-portfolio-img__bottom-button">more info</button>
+                </div>
+            </div>
+            <div class="sections-portfolio-img">
+                <img src="../images/Portfolio-img/4.png" alt="">
+                <div class="sections-portfolio-img_description">
+                    <h3 class="sections-portfolio-img__title">What i do?</h3>
+                    <ul class=sections-portfolio-img__benefits-list">
+                        <li class="sections-portfolio-img__benefits-item">design</li>
+                        <li class="sections-portfolio-img__benefits-item">FrontEnd</li>
+                        <li class="sections-portfolio-img__benefits-item">backEnd</li>
+                        <li class="sections-portfolio-img__benefits-item">Server management</li>
+                    </ul>
+                    <button class="sections-portfolio-img__top-button">more info</button>
+                    <button class="sections-portfolio-img__bottom-button">more info</button>
+                </div>
+            </div>
+            <div class="sections-portfolio-img">
+                <img src="../images/Portfolio-img/6.png" alt="">
+                <div class="sections-portfolio-img_description">
+                    <h3 class="sections-portfolio-img__title">What i do?</h3>
+                    <ul class=sections-portfolio-img__benefits-list">
+                        <li class="sections-portfolio-img__benefits-item">design</li>
+                        <li class="sections-portfolio-img__benefits-item">FrontEnd</li>
+                        <li class="sections-portfolio-img__benefits-item">backEnd</li>
+                        <li class="sections-portfolio-img__benefits-item">Server management</li>
+                    </ul>
+                    <button class="sections-portfolio-img__top-button">more info</button>
+                    <button class="sections-portfolio-img__bottom-button">more info</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ./sections-portfolio -->
+<!-- .sections-experience -->
+<div class="sections-experience">
+    <div class="container sections-experience-container">
+        <div class="sections-experience-right">
+            <p class="sections-experience-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consequat commodo libero, a vulputate metus rhoncus sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc eleifend enim dictum libero elementum, non gravida arcu viverra.</p>
+            <div class="sections-experience-development">
+                <img src="../images/womanUP.png" alt="woman_ahahahh" class="sections-experience-womanUP">
+                <div class="sections-experience-list-left-block">
+                    <p class="sections-experience-double-title">Development</p>
+                    <ul class="sections-experience-list">
+                        <li class="sections-experience-list-component">HTML</li>
+                        <li class="sections-experience-list-component">CSS</li>
+                        <li class="sections-experience-list-component">JavaScript</li>
+                        <li class="sections-experience-list-component">C#</li>
+                        <li class="sections-experience-list-component">Unity</li>
+                        <li class="sections-experience-list-component">Java</li>
+                        <li class="sections-experience-list-component">Ruby on rails</li>
+                        <li class="sections-experience-list-component">C++</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="sections-experience-design">
+            <div class="sections-experience-list-right-block">
+                <p class="sections-experience-double-title">Design</p>
+                <ul class="sections-experience-list">
+                    <li class="sections-experience-list-component">PS</li>
+                    <li class="sections-experience-list-component">Adobe AI</li>
+                    <li class="sections-experience-list-component">Figma</li>
+                    <li class="sections-experience-list-component">Flat Design</li>
+                    <li class="sections-experience-list-component">Animation</li>
+                    <li class="sections-experience-list-component">Postprogress</li>
+                    <li class="sections-experience-list-component">Paint</li>
+                    <li class="sections-experience-list-component">Vector image</li>
+                </ul>
+            </div>
+            <img src="../images/womanDOWN.png" alt="" class="sections-experience-womanDOWN">
+        </div>
+    </div>
+</div>
+<!-- ./sections-experience -->
+<!-- .sections-skills -->
+<div class="sections-skills" id="skills-block">
+    <div class="container sections-skills-container">
+        <h2 class="sections-skills-title wow bounceInDown">Skills</h2>
+        <p class="sections-skills-subtitle">Bla bla bla bla foaspoasfasfqiwrbejbvgjdvds</p>
+        <img src="../images/skills-top.png" alt="" class="sections-skills-img-top">
+        <img src="../images/skils-down.png" alt="" class="sections-skills-img-down">
+    </div>
+</div>
+<!-- ./sections-skills -->
+<!-- .sections-contact -->
+<div class="sections-contact" id="contact-block">
+    <div class="container sections-contact-container">
+        <div class="sections-contact-contact">
+            <h2 class="sections-contact-contact-title">Contacts</h2>
+            <p class="sections-contact-contact-subtitle">Bla bla bla bla foaspoasfasfqiwrbejbvgjdvdsBla bla<br> bla bla foaspoasfasfqiwrbejbvgjdvds</p>
+            <ul class="sections-contact-contact-list">
+                <li class="sections-contact-contact-number"><a href="tel:8 (800) 535-35-35" class="sections-contact-contact-number__links">8 (800) 535-35-35</a></li>
+                <li class="sections-contact-contact-number"><a href="tel:8 (800) 535-35-35" class="sections-contact-contact-number__links">8 (800) 535-35-35</a></li>
+                <li class="sections-contact-contact-number"><a href="tel:8 (800) 535-35-35" class="sections-contact-contact-number__links">8 (800) 535-35-35</a></li>
+            </ul>
+        </div>
+        <form action="#" class="sections-contact-message" id="email-form">
+            <p class="sections-contact-message-title">Message</p>
+            <div class="sections-contact-message-input-block">
+                <input id="your-name" type="text" class="sections-contact-message-name" placeholder="Your name"/>
+                <input type="text" class="sections-contact-message-email" placeholder="Your email"/>
+                <input type="text" class="sections-contact-message-question" placeholder="Your question"/>
+            </div>
+            <button class="sections-contact-message-button">Send</button>
+        </form>
+
+    </div>
+    <p class="sections-contact__authors_name">@ Copyright Ivan Petrov 2020</p>
+</div>
+<!-- ./sections-contact -->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" type="application/javascript"></script>
+<script src="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" type="application/javascript"></script>
+
+<script>
+    $(document).ready(function() {
+        $('.sections-portfolio-block-img').masonry({
+            columnWidth: 200
+        });
+
+        $("body").on("click", ".anchor", function(e) { // Вешаем обработчик собтия клик на все элементы с классом .anchor
+            let scrollTo = $(this).attr("href"); // Извлекаем атрибут href и записываем его в переменную scrollTo
+            if(!!scrollTo) { // Если scrollTo не пустая
+                let el = $(scrollTo); // Создаем jQuery-объект с элементом scrollTo(он же href - id или класс элемента, к котому мы будем скроллить)
+                if($(el).length > 0) { // Если количество элементов с классом или id scrollTo больше 0
+                    let top = $(el).eq(0).offset().top; // Берем первый элемент и запиываем в переменную top его отступ от самого верха страницы
+                    $("html").animate({ // Анимируем свойство scrollTop у html (положение скролла)
+                        scrollTop: top
+                    }, 5000)
+                    e.preventDefault(); // Не выполняем действие по умолчнию. Для ссылки это - переход на страницу.
+                }
+            }
+        })
+    })
+
+</script>
+</body>
+</html>
