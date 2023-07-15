@@ -1,4 +1,4 @@
-# Webpack Frontend Starterkit
+# Мой первый вебсайт.
 
 A lightweight foundation for your next webpack based frontend project.
 
@@ -7,6 +7,7 @@ A lightweight foundation for your next webpack based frontend project.
 ```sh
 npm install
 ```
+
 
 ### Start Dev Server
 
